@@ -18,8 +18,8 @@ export default function Form() {
     if (!name.trim() || !email.trim() || !message.trim()) {
       toast('Preencha todos os campos para enviar seu E-mail', {
         style: {
-          background: theme.colors.red['00'],
-          color: theme.colors.light['30'],
+          background: theme.colors.red['50'],
+          color: theme.colors.light['100'],
         },
       });
 
@@ -35,15 +35,15 @@ export default function Form() {
 
       toast('E-mail enviada com sucesso!', {
         style: {
-          background: theme.colors.green['10'],
-          color: theme.colors.light['30'],
+          background: theme.colors.green['100'],
+          color: theme.colors.light['100'],
         },
       });
     } catch {
       toast('Ocorreu um erro ao tentar enviar seu E-mail. Tente novamente!', {
         style: {
-          background: theme.colors.red['00'],
-          color: theme.colors.light['30'],
+          background: theme.colors.red['50'],
+          color: theme.colors.light['100'],
         },
       });
     } finally {
