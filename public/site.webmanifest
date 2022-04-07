@@ -1,0 +1,43 @@
+{
+  "name": "Matheus Fávaro Lemma | Desenvolvedor Front End - Portfolio",
+  "short_name": "Matheus Lemma Portfolio",
+  "start_url": "/",
+  "description": "Olá! Me chamo Matheus, e sou desenvolvedor Front-end. Está precisando de um site, e-mail, landing page, hotsites, e-commerces. Entre em contato!",
+  "lang": "pt-BR",
+  "orientation": "natural",
+  "dir": "ltr",
+  "theme_color": "#282A36",
+  "background_color": "#282A36",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "size": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "size": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-16x16.png",
+      "size": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "type": "image/ico"
+    }
+  ]
+}
